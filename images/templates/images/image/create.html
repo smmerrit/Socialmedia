@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% block title %}Bookmark an Image{% endblock title %}
+{%block content%}
 <h1>Bookmark an Image</h1>
 <img src="{{request.GET.url}}" class="images-preview">
 <form action="" method="post">
