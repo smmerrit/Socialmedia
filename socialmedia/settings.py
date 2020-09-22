@@ -29,6 +29,7 @@ ALLOWED_HOSTS = ['mysite.com', 'localhost', '127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
+    'easy_thumbnails',
     'account.apps.AccountConfig',
     'images.apps.ImagesConfig',
     'django.contrib.admin',
